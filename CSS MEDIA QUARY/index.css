@@ -150,7 +150,8 @@ hr {
     opacity:0.7;
     border-radius: 10px;
     height: 40px;
-    background-color: rgb(230, 200, 33);
+    background-color: teal;
+    color: #fefefe;
 }
 
 .input-button input:hover {
@@ -170,11 +171,11 @@ hr {
 }
 
 .content-pesan {
-  background-color: #fefefe;
-        margin: 0 auto;
-        text-align: center;
-        padding: 20px;
-        width: 60%;
+    background-color: #fefefe;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    width: 60%;
 }
 
 .closemodal {
