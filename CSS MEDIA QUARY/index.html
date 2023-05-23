@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="landing-page">
+        <h1 class="welcome-text">Halo selamat datang di website saya</h1>
+    </div>
+    <ul class="nav">
+        <li class="nav-icon desktop">ILHAM LIE</li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#portofolio">My Portfolio</a></li>
+        <li><a href="#pesan">Pesan</a></li>
+    </ul>
+    <div id="about-me">
+        <div class="section-introduction">
+            <p class="content-perkenalan">Perkenalkan saya <strong>ILHAM TATAYO LIE</strong> , seorang Web developer yang berfokus dalam membuat tampilan website yang modern dan responsive</p>
+        </div>
+        <div class="section-education">
+            <p class="content-perkenalan">Saya telah mengikuti beberapa kelas khusus untuk membuat tampilan web responsive dan telah mempunyai beberapa sertifikat</p>
+        </div>
+        <div class="section-working">
+            <p class="content-perkenalan">Saya telah mengusasi cara membuat tampilan website dengan menggunakna <b>HTML, CSS dan JavaScript</b> saya juga dapat menggunakan Framework modern seperti <b>Bootstrap</b></p>
+        </div>
+    </div>
+    <div id="portofolio">
+        <h1 class="title-portofolio">My Portofolio</h1>
+        <div class="container">
+            <img src="https://images.unsplash.com/photo-1518349619113-03114f06ac3a?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80" alt="" class="img-portfolio">
+            <img src="https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80" alt="" class="img-portfolio">
+            <img src="https://images.unsplash.com/photo-1506729623306-b5a934d88b53?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80" alt="" class="img-portfolio">
+            <img src="https://images.unsplash.com/photo-1576153192621-7a3be10b356e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80" alt="" class="img-portfolio">
+        </div>
+    </div>
+    <hr>
+    <div class="pesan" id="pesan">
+        <div class="container">
+            <h2 class="heading-lesson">Pesan Untuk Saya</h2>
+            <div class="message">
+                <div class="input-text">
+                    <input type="text" class="emailmu" value="    EMAIL (Diperlukan)   ">
+                </div>
+                <div class="input-area">
+                    <input type="form" class="message-mu"value="    Message (Diperlukan)   " class="area">
+                </div>
+                <div class="input-button">
+                    <input type="submit" class="kirimkan" onclick="sending()" value="KIRIM" id="openModalButton">
+                </div>
+                <div id="myModal">
+                    <div id="modalContent">
+                      <span id="closeModalIcon">&times;</span>
+                      <h2>Pesan Anda</h2>
+                      <div class="hasil"></div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        © Kelas Website Responsive, Inc. All rights reserved.
+    </footer>
+</body>
+</html>
